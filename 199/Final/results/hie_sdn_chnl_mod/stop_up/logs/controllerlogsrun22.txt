@@ -1,0 +1,14 @@
+Controller Logs
+Channel Update to 10.0.0.5
+Updating Channel
+Channel updated to 10.0.0.5
+Channel Update to 10.0.0.2
+Updating Channel
+Channel updated to 10.0.0.2
+Channel Update to 10.0.0.5
+Updating Channel
+[10.0.0.2,10.0.0.1] Path Modified to 1 at timestamp 89
+[10.0.0.1,10.0.0.2] Path Modified to 1 at timestamp 89
+[10.0.0.2,10.0.0.1] Path Modified to 2 at timestamp 89
+[10.0.0.1,10.0.0.2] Path Modified to 2 at timestamp 89
+Channel updated to 10.0.0.5

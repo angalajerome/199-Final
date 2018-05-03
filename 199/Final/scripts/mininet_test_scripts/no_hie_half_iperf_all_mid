@@ -1,0 +1,23 @@
+py net.waitConnected()
+
+py "Running Tutorial Services"
+h2 cd /home/ndsg/Desktop/199/Final/data/openhie/openhim-tutorial-services
+h2 ( node health-record-service.js > [SERVICE DIRECTORY 1]) &
+
+h1 sleep 1
+h7 iperf -s &
+h10 iperf -s &
+h9 iperf -s &
+py "Running OpenHIE Client Script"
+h1 cd "/home/ndsg/Desktop/199/Final/scripts"
+[CURL THING]
+py "Running Iperf Client"
+h6 (sleep 20; iperf -c 10.0.0.7 -t 20) &
+h4 (sleep 20; iperf -c 10.0.0.10 -t 20) &
+h8 (sleep 20; iperf -c 10.0.0.9 -t 20) &
+
+
+py "Finished Iperf Client and OpenHIE Client Script"
+h1 sleep 120
+
+py "Finished"

@@ -1,0 +1,23 @@
+{
+	"working_directory" : "/home/ndsg/Desktop/199/Final",
+	"test_name_file" : "/scripts/json_files/testnames.json",
+	"runs_per_test" : 30,
+	"topology_directory" : "/scripts/topology.py",
+	"target_curr_test" : "curr_test.sh",
+	"services": [
+        { 
+            "service_script": "/data/openhie/openhim-tutorial-services/health-record-service.js"
+        }
+    ],
+    "udp_server" : {
+        "server_script" : "/scripts/udp_server.py", 
+        "recv_port" : 6789, 
+        "send_port" : 2152
+    },
+    "results_directory" : "/results",
+    "logs" : {
+            "curl" : "curl_transactions",
+            "controller" : "logs",
+            "services" : "services"
+        }
+}

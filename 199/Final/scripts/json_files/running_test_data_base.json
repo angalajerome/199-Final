@@ -1,0 +1,20 @@
+{
+    "heartbeat_client_dir": "[DIR]/logs/hbclientlogsrun3.txt", 
+    "cont_logs_dir": "[DIR]/logs/controllerlogsrun3.txt", 
+    "curl_directory": "[DIR]/curl_transactions/curl_transrun3.csv", 
+    "services_directory": [
+        "[DIR]/services/service1run3.csv", 
+        "[DIR]/services/service3run3.csv"
+    ], 
+    "heartbeat_server_dir": "[DIR]/logs/hbserverlogsrun3.txt", 
+    "udp_server": {
+        "server_script": "/home/ndsg/Desktop/199/Final/scripts/udp_server.py", 
+        "recv_port": 6789, 
+        "send_port": 2152
+    }, 
+    "services": [
+        { 
+            "service_script": "/home/ndsg/Desktop/199/Final/data/openhie/openhim-tutorial-services/health-record-service.js"
+        }
+    ]
+}

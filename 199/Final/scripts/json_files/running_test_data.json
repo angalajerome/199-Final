@@ -1,0 +1,20 @@
+{
+    "services_directory": [
+        "/home/ndsg/Desktop/199/Final/results/hie_sdn_chnl_mod/base/services/service1run30.csv", 
+        "/home/ndsg/Desktop/199/Final/results/hie_sdn_chnl_mod/base/services/service3run30.csv"
+    ], 
+    "udp_server": {
+        "server_script": "/home/ndsg/Desktop/199/Final/scripts/udp_server.py", 
+        "recv_port": 6789, 
+        "send_port": 2152
+    }, 
+    "heartbeat_client_dir": "/home/ndsg/Desktop/199/Final/results/hie_sdn_chnl_mod/base/logs/hbclientlogsrun3.txt", 
+    "cont_logs_dir": "/home/ndsg/Desktop/199/Final/results/hie_sdn_chnl_mod/base/logs/controllerlogsrun30.txt", 
+    "curl_directory": "/home/ndsg/Desktop/199/Final/results/hie_sdn_chnl_mod/base/curl_transactions/curl_transrun30.csv", 
+    "heartbeat_server_dir": "/home/ndsg/Desktop/199/Final/results/hie_sdn_chnl_mod/base/logs/hbserverlogsrun3.txt", 
+    "services": [
+        {
+            "service_script": "/home/ndsg/Desktop/199/Final/data/openhie/openhim-tutorial-services/health-record-service.js"
+        }
+    ]
+}
